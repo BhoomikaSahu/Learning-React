@@ -1,0 +1,17 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url('https://picsum.photos/2000/1000');
+    background-repeat: no-repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+h1{
+border: 5px solid black;
+background-color: rgb(233, 210, 233);
+text-align: center;
+height: 199px;
+width: 900px; 
+margin: auto;
+}
