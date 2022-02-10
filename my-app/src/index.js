@@ -1,5 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
+
+ReactDOM.render(
+    <App/>, 
+    document.getElementById('root')
+);
+
+
+
 // import './index.css';
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
@@ -48,19 +57,21 @@ import ReactDOM from 'react-dom';
 
 
 // challenge-2
-import Currdate from './date';
-import CurrTime from './time';
-let fname = "Bhoomika";
-let lname = "Sahu";
-// let date = new Date().toLocaleDateString();
-// let time = new Date().toLocaleTimeString();
-ReactDOM.render(
-    <>
-        <h1>{`Hello! My name is ${fname} ${lname}.`}</h1>
-        <Currdate />
-        <CurrTime />
-        {/* <p>Today's date is {date}</p> */}
-        {/* <p>Current Time is {time}</p> */}
-    </>,           
-    document.getElementById('root')
-);
+// import Currdate from './date';
+// import CurrTime from './time';
+// let fname = "Bhoomika";
+// let lname = "Sahu";
+// // let date = new Date().toLocaleDateString();
+// // let time = new Date().toLocaleTimeString();
+// ReactDOM.render(
+//     <>
+//         <h1>{`Hello! My name is ${fname} ${lname}.`}</h1>
+//         <Currdate />
+//         <p>{Currdate()}</p>
+//         <CurrTime />
+//         {/* <p>Today's date is {date}</p> */}
+//         {/* <p>Current Time is {time}</p> */}
+//     </>,           
+//     document.getElementById('root')
+// );
+
