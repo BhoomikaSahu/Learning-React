@@ -1,6 +1,6 @@
 import {add, sub, mul, divi} from './Calci';
 
-function App(){
+function Calculator(){
     return (
         <>
             <ol>
@@ -13,4 +13,4 @@ function App(){
     );
 }
 
-export default App;
+export default Calculator;
