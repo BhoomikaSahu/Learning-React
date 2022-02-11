@@ -4,7 +4,7 @@ function Card(prop){
         <>
             <div className="card">
                 <h1 className="heading">{prop.title}</h1>
-                <img className="image" src = {prop.img} alt = {'HackerRank'}/>
+                <img className="image" src = {prop.img} alt = {'Image'}/>
                 <a className="link" href={prop.link} target = {'_blank'}>
                     <button className="btn">Click here</button>
                 </a>
