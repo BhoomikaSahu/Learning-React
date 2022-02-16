@@ -8,20 +8,28 @@ import Events from './Events'
 import Form from './Form'
 import MultipleInputForm from './MultipleInputForm.jsx'
 import ToggleByHooks from './Hooks/ToggleByHooks'
-
+import HandleArray from './Hooks/HandleArray'
+import HandleObject from './Hooks/HandleObject'
+import ToDoListChallenge from './Hooks/ToDoListChallenge';
+import ShortCircuitEvalution from './Hooks/ShortCircuitEvalution'
+import LoginForm from './Hooks/LoginForm'
 function App(){
     return (
         <>
-            {/* <NetflixSeries />
-            <Calculator />
-            <DateTime /> */}
-            <IncrementValue />
+            {/* <NetflixSeries /> */}
+            {/* <Calculator /> */}
+            {/* <DateTime /> */}
+            {/* <IncrementValue /> */}
             {/* <Time /> */}
             {/* <Clock /> */}
-            <MultipleInputForm />
-            <ToggleByHooks />
+            {/* <MultipleInputForm /> */}
+            {/* <ToggleByHooks /> */}
+            {/* <HandleObject /> */}
+            {/* <ToDoListChallenge /> */}
+            {/* <ShortCircuitEvalution /> */}
+            <LoginForm />
+
         </>
     );
 }
-
 export default App;

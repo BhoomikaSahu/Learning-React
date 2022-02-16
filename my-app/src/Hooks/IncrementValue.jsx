@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const ClickFunc = () => {
+const IncrementValue = () => {
     let [count, setCount] = useState(1);
     const Inc = () => {
         setCount(++count);
@@ -15,4 +15,4 @@ const ClickFunc = () => {
     )
 }
 
-export default ClickFunc;
+export default IncrementValue;
