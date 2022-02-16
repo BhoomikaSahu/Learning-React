@@ -7,8 +7,8 @@ const Coding = () => {
         return(
           <Card
             key = {card.id}
-            img = {card.img}
             title = {card.title}
+            img = {card.img}
             link = {card.link}
           />
         )
