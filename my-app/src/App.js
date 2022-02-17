@@ -22,12 +22,12 @@ function App(){
             {/* <IncrementValue /> */}
             {/* <Time /> */}
             {/* <Clock /> */}
-            {/* <MultipleInputForm /> */}
+            <MultipleInputForm />
             {/* <ToggleByHooks /> */}
             {/* <HandleObject /> */}
             {/* <ToDoListChallenge /> */}
             {/* <ShortCircuitEvalution /> */}
-            <LoginForm />
+            {/* <LoginForm /> */}
 
         </>
     );
