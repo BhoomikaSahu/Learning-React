@@ -13,6 +13,11 @@ import HandleObject from './Hooks/HandleObject'
 import ToDoListChallenge from './Hooks/ToDoListChallenge';
 import ShortCircuitEvalution from './Hooks/ShortCircuitEvalution'
 import LoginForm from './Hooks/LoginForm'
+import UseEffect from './Hooks/UseEffectHook'
+import Conditions from './Hooks/ConditionsInUseEffect'
+import CleanUp from './Hooks/CleanUp'
+import { BrowserRouter } from 'react-router-dom'
+import RouterComponent from './Router/RouterComponent'
 function App(){
     return (
         <>
@@ -22,13 +27,19 @@ function App(){
             {/* <IncrementValue /> */}
             {/* <Time /> */}
             {/* <Clock /> */}
-            <MultipleInputForm />
+            {/* <MultipleInputForm /> */}
             {/* <ToggleByHooks /> */}
             {/* <HandleObject /> */}
             {/* <ToDoListChallenge /> */}
             {/* <ShortCircuitEvalution /> */}
             {/* <LoginForm /> */}
+            {/* <UseEffect /> */}
+            {/* <Conditions /> */}
+            {/* <CleanUp /> */}
 
+            <BrowserRouter>
+                <RouterComponent />   
+            </BrowserRouter>
         </>
     );
 }
